@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+body {
+    background-color: black !important;
+}
+
+.text-light {
+    text-align: center;
+    margin: 5px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    padding: 5px;
+    background: linear-gradient(red, blue, yellow);
+    transition: 1s;
+}
+
+.card:hover {
+    box-shadow: 0px 5px 14px rgba(115, 255, 0, 0.8);
+    transform: skew(3deg)
+}
+
+.box {
+    margin: 10px;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.card-text span {
+    color: rgb(39, 45, 45);
+    font-size: larger;
+}
